@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: diana (1000)
 ;	On host: Nadja-HP-245-G5-Notebook-PC
-;	At date: Fri Apr 26 13:33:40 2024
+;	At date: Mon Jun 17 14:57:33 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,14 +11,14 @@
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/diana/Escritorio/SIMULACIÓN DE LA TAU/Run
 ;	Command line:
-;	  gmx_mpi grompp -f em1_bckb_posres.mdp -p ../topol.top -n ../tau_ions.ndx -c ../tau_ions2_Autom.gro -r ../tau_ions2_Autom.gro -o tau_em1.tpr
+;	  gmx_mpi grompp -f em2_without_bckb_posres.mdp -p ../topol.top -n ../tau_ions.ndx -c tau_em1.gro -r tau_em1.gro -o tau_em2.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DGN_GO
+define                   = 
 
 ; RUN CONTROL PARAMETERS
 integrator               = steep
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -49481
+gen-seed                 = 2063042311
 
 ; OPTIONS FOR BONDS    
 constraints              = none
