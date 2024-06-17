@@ -1,6 +1,6 @@
 ; VARIOUS PREPROCESSING OPTIONS
   title                  = EMIN
-  define                 = -DGN_GO
+;  define                 = -DGN_GO
 
 ; RUN CONTROL PARAMETERS
   integrator             = steep
