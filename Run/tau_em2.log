@@ -41,7 +41,7 @@ GROMACS:      gmx mdrun, version 2023.3
 Executable:   /usr/local/gromacs/bin/gmx_mpi
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/diana/Escritorio/SIMULACIÓN DE LA TAU/Run
-Process ID:   19045
+Process ID:   20483
 Command line:
   gmx_mpi mdrun -v -deffnm tau_em2
 
@@ -385,7 +385,7 @@ Note that activating steepest-descent energy minimization via the integrator .md
 Initiating Steepest Descents
 
 Atom distribution over 1 domains: av 193513 stddev 0 min 193513 max 193513
-Started Steepest Descents on rank 0 Mon Jun 17 14:58:11 2024
+Started Steepest Descents on rank 0 Mon Jun 17 17:24:08 2024
 
 
 Steepest Descents:
@@ -24096,5 +24096,5 @@ Norm of force     =  2.2018345e+00
 
  av. #atoms communicated per step for force:  2 x 0.0
 
-Finished mdrun on rank 0 Mon Jun 17 15:27:56 2024
+Finished mdrun on rank 0 Mon Jun 17 17:37:44 2024
 
